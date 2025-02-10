@@ -2,13 +2,15 @@
 
 This repository contains some solutions to the [Advent of Code](https://adventofcode.com/) challenges, written in [Befunge 93](https://esolangs.org/wiki/Befunge). For some reason I try to do day 2 part 1 in Befunge 93 every year.
 
+> Befunge is a two-dimensional esoteric programming language invented in 1993 by Chris Pressey with the goal of being as difficult to compile as possible. Code is laid out on a two-dimensional grid of instructions, and execution can proceed in any direction of that grid. 
+
 ### 2024 day 2 part 1
 
 * Challenge https://adventofcode.com/2024/day/2
 * Run on https://esolangpark.vercel.app/ide/befunge93
 * Input format notes: input needs empty trailing newline
 
-```
+```befunge
 >0 >&01p>~52*-!#v_>&11p21g" "-#v_3  >:01g+11g-#v_99*21p  v
    ^  +1p12< " "< ^    <       9    |:       -1<
        >+.@                         $
@@ -28,7 +30,7 @@ This repository contains some solutions to the [Advent of Code](https://adventof
 * Run on https://esolangpark.vercel.app/ide/befunge93
 * Input format notes: input needs empty trailing newline
 
-```
+```befunge
 v000      >~# 5# 2# *# -#       _^       >v
 0    >"G"-|                     0< >:"g"-|
 >~:1+|    >~~~~$$$$&~~>$$>&~$~:"r"-|>   v
@@ -56,7 +58,7 @@ v000      >~# 5# 2# *# -#       _^       >v
 * Run on https://esolangpark.vercel.app/ide/befunge93
 * Input format notes: input requires that there is **no** empty trailing newline (sorry for the inconsistency!)
 
-```
+```befunge
 v     v_v
        +>$+.@
        1
@@ -80,7 +82,7 @@ v  v6:< ~<             $   >v
 * Run on https://esolangpark.vercel.app/ide/befunge93
 * Output format notes: multiply the two remaining numbers when it starts going around in circles (lol)
 
-```
+```befunge
 v                  v   $  <         >$-v   >v
            >       >~:" "-|>$&\:"d"-|      -
      v     |  -*52:<
