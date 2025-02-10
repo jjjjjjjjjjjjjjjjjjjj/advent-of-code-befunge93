@@ -6,7 +6,7 @@ This repository contains some solutions to the [Advent of Code](https://adventof
 
 * Challenge https://adventofcode.com/2024/day/2
 * Run on https://esolangpark.vercel.app/ide/befunge93
-* Input format notes: input needs empty newline at the end
+* Input format notes: input needs empty trailing newline
 
 ```
 >0 >&01p>~52*-!#v_>&11p21g" "-#v_3  >:01g+11g-#v_99*21p  v
@@ -26,7 +26,7 @@ This repository contains some solutions to the [Advent of Code](https://adventof
 
 * Challenge https://adventofcode.com/2023/day/2
 * Run on https://esolangpark.vercel.app/ide/befunge93
-* Input format notes: input needs empty newline at the end
+* Input format notes: input needs empty trailing newline
 
 ```
 v000      >~# 5# 2# *# -#       _^       >v
@@ -54,7 +54,7 @@ v000      >~# 5# 2# *# -#       _^       >v
 
 * Challenge https://adventofcode.com/2022/day/2
 * Run on https://esolangpark.vercel.app/ide/befunge93
-* Input format notes: trim input by removing any trailing newline on input (sorry for the inconsistency!)
+* Input format notes: input requires that there is **no** empty trailing newline (sorry for the inconsistency!)
 
 ```
 v     v_v
